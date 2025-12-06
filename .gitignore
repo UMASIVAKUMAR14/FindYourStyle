@@ -40,3 +40,7 @@ labels/
 textual descriptions/
 data/
 
+# Individual files
+*.txt
+*.png
+*.jpg
