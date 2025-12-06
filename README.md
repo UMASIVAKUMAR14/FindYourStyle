@@ -64,9 +64,6 @@ Project goals:
 - **1:** Set up repository, local environment, data loading, and parsing.  
 - **2:** Baseline training of a multi-head classification model (heads: type, shape, color, fabric).  
 - **3:** Improve robustness (random brightness/contrast/noise). Implement hyperparameter tuning.  
-- **4 (Reach goal):** Define style embeddings by concatenating image embeddings with attribute vectors. Implement similarity search to find most similar images.  
-- **5:** Detailed report of findings.
 
 ### Deliverables
 - A trained model that, given an image with correct parsing, classifies clothing into types and styles.  
-- **Reach Goal:** A basic retrieval/recommendation function that finds similarly styled clothes within the same type.
