@@ -38,3 +38,5 @@ keypoints/
 DensePose/
 labels/
 textual descriptions/
+data/
+
