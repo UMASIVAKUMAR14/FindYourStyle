@@ -61,11 +61,11 @@ Project goals:
 ## 7. Milestones and deliverables
 
 ### Milestones
-- **Week 1:** Set up repository, local environment, data loading, and parsing.  
-- **Week 2:** Baseline training of a multi-head classification model (heads: type, shape, color, fabric).  
-- **Week 3:** Improve robustness (random brightness/contrast/noise). Implement hyperparameter tuning.  
-- **Week 4 (Reach goal):** Define style embeddings by concatenating image embeddings with attribute vectors. Implement similarity search to find most similar images.  
-- **Week 5:** Detailed report of findings.
+- **1:** Set up repository, local environment, data loading, and parsing.  
+- **2:** Baseline training of a multi-head classification model (heads: type, shape, color, fabric).  
+- **3:** Improve robustness (random brightness/contrast/noise). Implement hyperparameter tuning.  
+- **4 (Reach goal):** Define style embeddings by concatenating image embeddings with attribute vectors. Implement similarity search to find most similar images.  
+- **5:** Detailed report of findings.
 
 ### Deliverables
 - A trained model that, given an image with correct parsing, classifies clothing into types and styles.  
