@@ -29,3 +29,12 @@ dist/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Datasets
+DeepFashion-MultiModal/
+image/
+parsing/
+keypoints/
+DensePose/
+labels/
+textual descriptions/
