@@ -1,3 +1,36 @@
+# Set Up
+
+- Clone this github repository
+- Download the images, segm, and labels data from the DeepFashion-MultiModal dataset (link included in the data section of the README). 
+- Put this data in a data/ folder. Your local repository should look like 'Project Structure' below.
+- Run all cells in the model.ipynb file.
+
+## Project Structure
+
+The repository is organized as follows:
+
+```
+FindYourStyle/
+│
+├── README.md                # Project overview and instructions
+├── data/                    # Dataset folder
+│   ├── images/              # Original clothing images (.jpg)
+│   ├── segm/                # Segmentation masks for images (.png)
+│   └── labels/              # Label files for various attributes
+│       ├── shape/
+│       │   └── shape_anno_all.txt
+│       └── texture/
+│           ├── fabric_ann.txt
+│           └── pattern_ann.txt
+└── model/                   # Notebooks and model code
+     └── model.ipynb          # Main modeling notebook
+```
+
+- **data/images/**: Contains the original clothing images. Filenames encode gender, clothing type, and other metadata.
+- **data/segm/**: Contains segmentation masks for each image, with the same base name as the image and `_segm.png` suffix. Each color in the mask corresponds to a clothing region.
+- **data/labels/**: Contains label files for shape and texture (pattern, fabric) annotations.
+- **model/**: Contains Jupyter notebooks for model development and experiments.
+
 # FindYourStyle
 Image Classification of Clothing by Type and Style
 
