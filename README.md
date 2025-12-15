@@ -1,7 +1,7 @@
 # Set Up
 
 - Clone this github repository
-- Download the `image`, `parsing`, and `labels` data from the "Download Links" of the DeepFashion-MultiModal dataset (link included in the data section of this README).
+- Download the `image`, `parsing`, and `labels` data from the "Download Links" section of the DeepFashion-MultiModal dataset (link included in the data section of this README).
 - Put this data in a data/ folder. Your local repository should look like 'Project Structure' below.
 - Run all cells in the model.ipynb file.
 
